@@ -1,0 +1,28 @@
+{
+  "name": "generator-express-swig",
+  "version": "0.0.0",
+  "description": "NodeJS Express framework with Swig instead of Jade",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joeynguyen/generator-express-swig.git"
+  },
+  "keywords": [
+    "node",
+    "swig",
+    "express",
+    "yeoman-generator"
+  ],
+  "author": "Joey Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joeynguyen/generator-express-swig/issues"
+  },
+  "homepage": "https://github.com/joeynguyen/generator-express-swig",
+  "dependencies": {
+    "yeoman-generator": "^0.17.1"
+  }
+}
