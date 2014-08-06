@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "description": "NodeJS Express framework with Swig instead of Jade",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/joeynguyen/generator-express-swig.git"
+  },
+  "scripts": {
+    "test": "mocha"
   },
   "keywords": [
     "node",
@@ -26,6 +26,7 @@
     "yeoman-generator": "^0.17.1"
   },
   "devDependencies": {
+    "mocha": "~1.14.0",
     "ncp": "0.5.0"
   }
 }
